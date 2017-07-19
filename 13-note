@@ -1,0 +1,64 @@
+import turtle
+t= turtle.Turtle()
+
+t.home()
+t.clear()
+
+for i range(4):
+  t,up
+  t.forward(20)
+  t.down()
+  for x in range(4):
+    t.forward(100)
+    t.left(90)
+  t.left(-90)
+print('hello')
+
+t.home()
+t.clear()
+
+for i in range(6):
+  t.forward(100)
+  t.left(60)
+  
+print('hello')
+
+def func(v):
+  i = v+3
+  return i
+  
+func(5)
+
+deh total(n)
+  s=0
+  for i in range(1,n+1)
+    s += i
+  return s
+  
+total(5)
+
+total(10)
+
+
+s=0
+for i in range(1,101):
+  s += i
+  
+s
+
+def circle(x,y,r):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.forward(r)
+  t.left(90)
+  t.down()
+  t.circle(r)
+  
+t.home()
+t.clear()
+
+circle(0,0,100)
+circle(100,200,50)
